@@ -110,7 +110,7 @@ def cli():
     " $ cellpy setup -d 'MyDir'",
 )
 @click.option(
-    "--testuser", "-t", default=None, help="Fake name for fake user (for tesing)"
+    "--testuser", "-t", default=None, help="Fake name for fake user (for testing)"
 )
 def setup(interactive, not_relative, dry_run, reset, root_dir, testuser):
     """This will help you to setup cellpy."""
